@@ -1,0 +1,40 @@
+{
+  "name": "farinside",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "hexo server"
+  },
+  "hexo": {
+    "version": "3.9.0"
+  },
+  "dependencies": {
+    "hexo": "^3.9.0",
+    "hexo-all-minifier": "^0.5.3",
+    "hexo-deployer-rsync": "^1.0.0",
+    "hexo-generator-archive": "^0.1.5",
+    "hexo-generator-category": "^0.1.3",
+    "hexo-generator-index": "^0.2.1",
+    "hexo-generator-search": "^2.4.0",
+    "hexo-generator-seo-friendly-sitemap": "0.0.25",
+    "hexo-generator-tag": "^0.2.0",
+    "hexo-renderer-ejs": "^0.3.1",
+    "hexo-renderer-less": "^1.0.0",
+    "hexo-renderer-marked": "^2.0.0",
+    "hexo-server": "^0.3.3"
+  },
+  "description": "You can go as far as your mind lets you",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": [
+    "steem",
+    "indonesia",
+    "farinside",
+    "indocell"
+  ],
+  "author": "Lutfi Nailufar Nurdin",
+  "license": "ISC"
+}
